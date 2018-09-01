@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "simple http exercise assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theheckle/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Sam Heckle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theheckle/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/theheckle/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
